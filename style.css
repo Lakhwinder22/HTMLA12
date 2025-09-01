@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.Card1 {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+}
+.Card2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(226, 192, 43);
+}
+.Card3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(43, 46, 226);
+}
+.Card4 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(186, 226, 43);
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+  .main {
+    flex-direction: column;
+  }
+}
